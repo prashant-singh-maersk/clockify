@@ -1,0 +1,13 @@
+.timer {
+  display: inline-flex;
+  gap: 10px;
+}
+.timer-btn{
+    background-color: #03a9f4;
+    border: 0 none;
+    padding: 5px 10px;
+    outline: none;
+    &:hover, &:focus, &:active{
+        background-color: #038fce
+    }
+}

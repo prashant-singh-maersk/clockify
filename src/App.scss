@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  gap:20px;
+}
+.project-list{
+  height: 100%;
+  flex-basis: 40%;
+  align-self: flex-start;
+  background-color: red;
+}
+.add-project{
+  height: 100%;
+  flex-basis: 50%;
+  gap:20px;
+  .project-name-input{
+    padding: 10px;
+    outline: none;
+  }
+  button{
+    padding: 10px;
+  }
+}
